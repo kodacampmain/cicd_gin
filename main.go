@@ -24,6 +24,6 @@ func main() {
 			},
 		})
 	})
-	r.Run(":8080")
 	log.Println("Backend is Running")
+	r.Run(":8080")
 }
